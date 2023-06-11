@@ -1,5 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Open+Sans&display=swap");
+
+.root {
+  --pink--color: #ee24ff;
+  --blue--color: #3f3d56;
+  --gray--color: #828282;
+  --white--color: #eceff2;
+}
+
 h1 {
-  font-family: "Inter", sans-serif;
+  font-family: "Dosis", sans-serif;
   font-size: 49px;
   line-height: 56px;
   font-weight: normal;
@@ -16,23 +25,26 @@ body {
   margin: 0;
 }
 
-#hero{
-  width: 592px;
-  margin:0 auto 72px;
-
+#hero {
+  position: absolute;
+  width: 350px;
+  height: 238px;
+  left: 337px;
+  top: 64px;
 }
 span,
 a {
   color: #ff9900;
 }
 
-p, #footer {
+p,
+#footer {
   color: #7d7987;
   font-size: 14px;
   line-height: 28px;
 }
 
-#footer a + a{
+#footer a + a {
   margin-left: 28px;
 }
 
@@ -40,7 +52,7 @@ p, #footer {
   width: 568px;
   height: 0px;
   margin: 0 auto 8px;
-  border: 1px solid #ECEFF2;
+  border: 1px solid #eceff2;
 }
 
 #balls {
